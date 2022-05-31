@@ -8,6 +8,6 @@ jobs:
 
     steps:
     - name: Labeler
-      uses: [insert correct action]
+      uses: estrada9166/labeler@v1
       with:
         repo-token: ${{ secrets.GITHUB_TOKEN }}
